@@ -1,0 +1,7 @@
+import socket
+
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect(("localhost", 5095))
+data = "*HQ200862304328000794,BA&A0516492843003307710489260011090623&B0100000000&C000000;3&F0000&G002450&R2125&N04&V0135&X(J0000)&K00100&Z000&g00001568#"
+s.send(data.encode())
+s.close()

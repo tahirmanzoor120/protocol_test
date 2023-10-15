@@ -1,0 +1,52 @@
+{
+    "applicationID": "3",
+    "applicationName": "IITN_GPSTRACKER",
+    "deviceName": "GPSTRACK2",
+    "devEUI": "AAYRAJBwgCc=",
+    "rxInfo": [
+        {
+            "gatewayID": "cNN5//6OH4A=",
+            "time": null,
+            "timeSinceGPSEpoch": null,
+            "rssi": -113,
+            "loRaSNR": -12,
+            "channel": 21,
+            "rfChain": 0,
+            "board": 0,
+            "antenna": 1,
+            "location": {
+                "latitude": 67.85748053914365,
+                "longitude": 20.24487376213074,
+                "altitude": 0,
+                "source": "UNKNOWN",
+                "accuracy": 0
+            },
+            "fineTimestampType": "NONE",
+            "context": "nRaAPA==",
+            "uplinkID": "Tg3fg4HFRzK5lH2vmYsKwA==",
+            "crcStatus": "CRC_OK"
+        }
+    ],
+    "txInfo": {
+        "frequency": 868100000,
+        "modulation": "LORA",
+        "loRaModulationInfo": {
+            "bandwidth": 125,
+            "spreadingFactor": 10,
+            "codeRate": "4/5",
+            "polarizationInversion": false
+        }
+    },
+    "adr": false,
+    "dr": 2,
+    "fCnt": 90,
+    "fPort": 207,
+    "data": "AhCZ",
+    "objectJSON": "{\"battery\":99,\"payload\":\"AhCZ\",\"porta\":207,\"temperature\":21}",
+    "tags": {},
+    "confirmedUplink": false,
+    "devAddr": "Acwwuw==",
+    "publishedAt": "2023-06-09T12:26:10.535116828Z",
+    "deviceProfileID": "e85c87ea-7231-4c89-9874-bef7d6f255f1",
+    "deviceProfileName": "ZANE1"
+}

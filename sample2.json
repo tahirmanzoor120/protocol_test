@@ -1,0 +1,35 @@
+67.85,
+"longitude": 20.22127,
+"altitude": 536,
+"source": "UNKNOWN",
+"accuracy": 0
+},
+"fineTimestampType": "NONE",
+"context": "DJAOrA==",
+"uplinkID": "/Wqwhqg1S4yQlXfdsj9VZg==",
+"crcStatus": "CRC_OK"
+}
+],
+"txInfo": {
+"frequency": 868300000,
+"modulation": "LORA",
+"loRaModulationInfo": {
+"bandwidth": 125,
+"spreadingFactor": 12,
+"codeRate": "4/5",
+"polarizationInversion": false
+}
+},
+"adr": false,
+"dr": 0,
+"fCnt": 283,
+"fPort": 204,
+"data": "YIQpDmFcAjoCQHg=",
+"objectJSON": "{\"altitude\":570,\"battery\":0,\"hdop\":2,\"latitude\":67.86300489020464,\"longitude\":20.222315841273268,\"payload\":\"YIQpDmFcAjoCQHg=\",\"porta\":204,\"temperature\":-7.8}",
+"tags": {},
+"confirmedUplink": false,
+"devAddr": "Acwwuw==",
+"publishedAt": "2023-06-15T07:56:16.532498708Z",
+"deviceProfileID": "e85c87ea-7231-4c89-9874-bef7d6f255f1",
+"deviceProfileName": "ZANE1"
+}
