@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OsmAnd Test Message</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <label for="host">Host</label>
+        <input id="host" type="text">
+        <label for="device-id">Device ID</label>
+        <input id="device-id" type="text">
+    </div>
+
+    <h4>Battery</h4>
+    <div>
+        <button onclick="incrementBattery()">+</button>
+        <input id="battery" type="number">
+        <button onclick="decrementBattery()">-</button>
+    </div>
+
+    <h4>Longitude</h4>
+    <div>
+        <button onclick="incrementLongitude()">+</button>
+        <input id="longitude" type="number">
+        <button onclick="decrementLongitude()">-</button>
+    </div>
+
+    <h4>Latitude</h4>
+    <div>
+        <button onclick="incrementLatitude()">+</button>
+        <input id="latitude" type="number">
+        <button onclick="decrementLatitude()">-</button>
+    </div>
+
+    <div style="margin-top: 24px; margin-bottom: 24px;">
+        <button onclick="show()">Show</button>
+        <button onclick="send()">Send</button>
+    </div>
+
+    <div style="margin-top: 24px; margin-bottom: 24px; display: flex; flex-direction: column; justify-content: center;">
+        <div class="arrow-container-single">
+            <button onclick="moveUp()">&#8593;</button>
+        </div>
+        <div class="arrow-container-double">
+            <button onclick="moveLeft()">&#8592;</button>
+            <button onclick="moveRight()">&#8594;</button>
+        </div>
+        <div class="arrow-container-single">
+            <button onclick="moveDown()">&#8595;</button>
+        </div>
+    </div>
+
+    <p id="url" style="font-family: 'Courier New', Courier, monospace; font-size: larger; font-weight: bold;"></p>
+    <script src="main.js"></script>
+</body>
+
+</html>

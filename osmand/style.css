@@ -1,0 +1,11 @@
+.arrow-container-double {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.arrow-container-single {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+}
